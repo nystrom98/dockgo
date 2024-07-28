@@ -17,7 +17,7 @@ cat << EOF > /usr/local/etc/trojan-go/config.json
   "remote_addr": "yahoo.com",
   "remote_port": 80,
   "log_level": 5,
-  "password": ["hny348G534"],
+  "password": ["$UUID"],
   "tcp": {
     "no_delay": true,
     "keep_alive": true,
